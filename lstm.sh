@@ -13,4 +13,13 @@
 #EXCLUDE: git python
 module load cuda/8.0
 module load cudnn/6.0
+
 module load anaconda-python/3.6
+## For first time use:
+#     conda create -n pytorchlm
+#     source activate pytorchlm
+#     conda install pytorch=0.3.0 cuda80 -c pytorch
+
+## For subsequent use:
+#     source activate pytorchlm
+

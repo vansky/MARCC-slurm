@@ -9,7 +9,7 @@
 #SBATCH --output=lmer.log
 #SBATCH --error=lmer.err
 
-module load R/3.4.3
-module load nlopt
+module load gcc/5.5.0
+module load R/3.5.1
 
 # Initial run will need to install.packages("lme4")
